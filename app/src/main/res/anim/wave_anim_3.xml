@@ -1,0 +1,9 @@
+
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYScale="0.7"
+    android:toYScale="1.8"
+    android:pivotY="100%"
+    android:duration="700"
+    android:startOffset="100"
+    android:repeatCount="infinite"
+    android:repeatMode="reverse" />

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#121212"
+	android:padding="24dp">
+
+	<TextView
+		android:id="@+id/titleText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="إذاعة القرآن الكريم بالقاهرة"
+		android:textSize="25sp"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="40dp"/>
+
+	<ImageView
+		android:id="@+id/radioIcon"
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:layout_below="@id/titleText"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp"
+		android:src="@drawable/image_2"
+		android:contentDescription="رمز الراديو"/>
+
+	<TextView
+		android:id="@+id/statusText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="جاري التشغيل..."
+		android:textSize="18sp"
+		android:textColor="#00FF00"
+		android:layout_below="@id/radioIcon"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"/>
+
+	<LinearLayout
+		android:id="@+id/soundWaves"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:layout_below="@id/statusText"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="20dp"
+		android:gravity="bottom"
+		android:weightSum="5">
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_green_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_red_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="50dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_orange_dark"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_purple"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_green_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_green_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_red_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="50dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_orange_dark"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_purple"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_green_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_green_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_red_light"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="50dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_orange_dark"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="35dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_purple"/>
+
+		<View
+			android:layout_width="5dp"
+			android:layout_height="20dp"
+			android:layout_weight="1"
+			android:background="@android:color/holo_green_light"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
